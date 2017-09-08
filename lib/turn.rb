@@ -22,9 +22,7 @@ def position_taken?(board, index)
 end
 
 def move(board, index, token = "X")
-  if (valid_move?(board, index))
     board[index] = token
-end
 end
 
 def turn(board)
