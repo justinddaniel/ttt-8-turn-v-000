@@ -34,4 +34,3 @@ def turn(board)
   input_to_index(input)
   move(board, index, token = "X")
 end
-end
